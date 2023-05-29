@@ -9,6 +9,9 @@ public class Functions {
         if (p < 0) {
             p = -p;
         }
+
+        int redundantVariable = p + 1;
+
         return p * 2;
     }
 }
